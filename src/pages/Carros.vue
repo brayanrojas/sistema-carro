@@ -1,6 +1,6 @@
 <template>
 	<q-page >
-		<h4 class="capitalize text-blue text-weight-bolder text-center">inicio</h4>
+		<h4 class="capitalize text-blue text-weight-bolder text-center">Inicio</h4>
 		<div class="row gutter-md q-pa-sm ">
 			<div class="col-md-4 col-xs-12" v-for="(carro, i) in carros" :key="`${i}-${carro.id}`">
 				<div @click="selectCarro(carro.id)">
